@@ -1,0 +1,30 @@
+{
+  "name": "festival_musical",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emontilla07/music-festival.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Eric Montilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emontilla07/music-festival/issues"
+  },
+  "homepage": "https://github.com/emontilla07/music-festival#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.0"
+  }
+}
